@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="61787" started-at="2020-02-27T10:25:03Z" finished-at="2020-02-27T10:26:05Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="31790" started-at="2020-02-27T10:25:03Z" finished-at="2020-02-27T10:25:35Z">
+      <class name="com.sapient.xml.flipkart">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sapient.xml.flipkart@6b67034]" name="setup" is-config="true" duration-ms="5120" started-at="2020-02-27T15:55:03Z" finished-at="2020-02-27T15:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open()[pri:0, instance:com.sapient.xml.flipkart@6b67034]" name="open" duration-ms="26661" started-at="2020-02-27T15:55:08Z" finished-at="2020-02-27T15:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- com.sapient.xml.flipkart -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="29984" started-at="2020-02-27T10:25:35Z" finished-at="2020-02-27T10:26:05Z">
+      <class name="com.sapient.xml.flipkart">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sapient.xml.flipkart@525b461a]" name="setup" is-config="true" duration-ms="5132" started-at="2020-02-27T15:55:35Z" finished-at="2020-02-27T15:55:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open()[pri:0, instance:com.sapient.xml.flipkart@525b461a]" name="open" duration-ms="24851" started-at="2020-02-27T15:55:40Z" finished-at="2020-02-27T15:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- com.sapient.xml.flipkart -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

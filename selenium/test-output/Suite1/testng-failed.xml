@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="methods">
+  <parameter name="browser" value="chrome"/>
+  <test name="Firefox Test(failed)" parallel="methods" preserve-order="true">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.sapient.xml.flipkart">
+        <methods>
+          <include name="open"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sapient.xml.flipkart -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="methods" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.sapient.xml.flipkart">
+        <methods>
+          <include name="open"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sapient.xml.flipkart -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
